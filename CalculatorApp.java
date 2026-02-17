@@ -29,51 +29,6 @@ import java.util.Scanner;
 }
 
 
-public class CalculatorApp {
-
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        Calculator calc = new Calculator();
-
-        System.out.print("Enter first number: ");
-        double num1 = sc.nextDouble();
-
-        System.out.print("Enter second number: ");
-        double num2 = sc.nextDouble();
-
-        System.out.print("Choose operation:\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n ");
-        int op = sc.nextInt();
-
-        double result;
-
-        switch (op) {
-            case 1:
-                result = calc.add(num1, num2);
-                break;
-
-            case 2:
-                result = calc.sub(num1, num2);
-                break;
-
-            case 3:
-                result = calc.mul(num1, num2);
-                break;
-
-            case 4:
-                result = calc.div(num1, num2);
-                break;
-
-            default:
-                System.out.println("Invalid operation");
-                sc.close();
-                return;
-        }
-
-        System.out.println("Result = " + result);
-        sc.close();
-    }
-}
 
 
 
@@ -116,3 +71,4 @@ public class CalculatorApp {
         sc.close();
     }
 }
+
