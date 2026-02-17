@@ -1,5 +1,3 @@
-Below is a **clean, professional, GitHub-ready final README.md**.
-No emojis, no fluff, no meta commentary. You can copy-paste this directly.
 
 ---
 
